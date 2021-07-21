@@ -16,6 +16,10 @@ TextReply = 'عمࢪࢪيي قـميـل بخيࢪ اذا حـلو بخيࢪ💘
 send(msg.chat_id_, msg.id_,'['..TextReply..']')
 return false
 end
+if text == '@S_X_X_G' then
+TextReply = 'مطور السورس عمري'
+send(msg.chat_id_, msg.id_,'['..TextReply..']')
+return false
 if text == 'تمام' then
 TextReply = 'تـدوم عمࢪيي💘'
 send(msg.chat_id_, msg.id_,'['..TextReply..']')
