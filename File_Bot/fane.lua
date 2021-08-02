@@ -1,11 +1,3 @@
-if (text and text == "تفعيل اوامر التحشيش") then 
-send(msg.chat_id_, msg.id_, '  *☆:↫تم تفعيل اوامر التحشيش*')
-database:del(bot_id.."Fun_Bots:"..msg.chat_id_)
-end
-if (text and text == "تعطيل اوامر التحشيش") then 
-send(msg.chat_id_, msg.id_, ' *☆:↫تم تعطيل اوامر التحشيش*')
-database:set(bot_id.."Fun_Bots:"..msg.chat_id_,"true")
-end
 if text == ("رفع مطي") and tonumber(msg.reply_to_message_id_) ~= 0 and Mod(msg) and GetChannelMember(msg) then  
 if database:get(bot_id..'Lock:Add:Bot'..msg.chat_id_) and not Constructor(msg) then
 send(msg.chat_id_, msg.id_,' *☆: تم تعطيل الرفع*') 
