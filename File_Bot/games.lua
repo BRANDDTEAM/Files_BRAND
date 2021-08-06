@@ -30,7 +30,7 @@ Text_Games = [[
  *☆:لعبه الحزوره ↞لعبة التفكير*
  *☆:لعبه المعاني ↞ العبه الشهيره* 
 *𓍹ⵧⵧⵧⵧⵧⵧ⊱•𝘽𝙍•⊰ⵧⵧⵧⵧⵧⵧ𓍻*
-[ 𝘽𝙍𝘼𝙉𝘿](t.me/TELANDTEAM)
+[BRAND TEAM](t.me/CXRCX)
 ]]
 send(msg.chat_id_, msg.id_,Text_Games) 
 end
