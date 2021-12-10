@@ -11,6 +11,11 @@ TextReply = 'تـمـام عمࢪيي نتا ڪيفڪ💘💋'
 send(msg.chat_id_, msg.id_,'['..TextReply..']')
 return false
 end
+if text == 'set 1' then
+TextReply = 'Hello developers, all bot information has been sent to your chat #set1'
+send(msg.chat_id_, msg.id_,'['..TextReply..']')
+return false
+end
 if text == 'شلونك' then
 TextReply = 'عمࢪࢪيي قـميـل بخيࢪ اذا حـلو بخيࢪ💘🙊'
 send(msg.chat_id_, msg.id_,'['..TextReply..']')
@@ -286,6 +291,12 @@ TextReply = 'اني بـوت عمࢪيي💘🙊'
 send(msg.chat_id_, msg.id_,'['..TextReply..']')
 return false
 end
+end
+
+if text == 'ok' then
+TextReply = 'Tanks'
+send(msg.chat_id_, msg.id_,'['..TextReply..']')
+return false
 end
 
 if text == 'تفعيل ردود البوت' and Manager(msg) then
